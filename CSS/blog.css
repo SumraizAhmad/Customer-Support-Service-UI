@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blog_body {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 352px 550px 940px 250px 835px 50px 638px 600px;
+    /* gap: 5px; */
+}
+
+.section {
+    background-color: #FFEBEC;
+}
+
+.blog_container {
+    width: 82%;
+    margin: auto;
+}
+
+/* -------------------------------------- section_header ---------------------------------------------  */
+.header_info_blog {
+    background-image: url('../Images/blog-header-bg.jpg');
+    background-size: 100% auto;
+    background-position: center;
+    /* height: 19rem; */
+    margin-top: 3rem;
+}
+
+.header_info_blog>div {
+    width: 100%;
+    height: 19rem;
+    background-color: #27283cbf;
+}
+
+
+.header_info_blog>div>center>h1 {
+    color: white;
+    font-size: 3rem;
+    padding-top: 6rem;
+}
+
+.header_info_blog>div>center>p {
+    font-size: 17px;
+    color: white;
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+
+/* -------------------------------------- section_header ---------------------------------------------  */
+
+
+
+/* -------------------------------------- section_about_author ---------------------------------------------  */
+.about_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 400px;
+    margin-top: 5rem;
+}
+
+.about_image {
+    grid-column: span 3;
+    /* background-color: rgb(90, 76, 76); */
+
+}
+
+.about_image>img {
+    border: 3px solid brown;
+}
+
+.about_paragraph {
+    grid-column: span 9;
+    /* background-color: brown; */
+}
+
+.sub_heading {
+    color: #F06D57;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+.sub_paragraph {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 2;
+
+}
+
+.box_text_link {
+    border: 1px solid black;
+    text-decoration: none;
+    color: brown;
+    font-weight: 600;
+}
+
+.paragraph {
+    font-size: 22px;
+    margin-top: 3rem;
+    border-left: 1px solid rgb(249 213 219);
+    padding-left: 3rem;
+    margin-left: 2rem;
+}
+
+/* -------------------------------------- section_about_author ---------------------------------------------  */
+
+/* ------------------------------------------ section_red -------------------------------------------------- */
+.red_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 900px;
+    gap: 1rem;
+}
+
+.frame_one {
+    grid-column: span 2;
+    /* background-color: #888686; */
+}
+
+.frame_two {
+    grid-column: span 1;
+    /* background-color: #b1a8a6; */
+    padding-top: 5.3rem;
+}
+
+.main_heading {
+    color: rgb(196, 51, 51);
+    font-family: Courgette;
+    font-size: 42px;
+}
+.main_paragraph{
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 3rem;
+    letter-spacing: -1px;
+}
+.frame_two>img{
+    width: 100%;
+}
+.frame_two>p{
+    font-size: 15px;
+    color: #7c7c7c;
+    line-height: 1.7;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 3.5rem;
+}
+.italic_font{
+    color: brown;
+    font-weight: 500;
+}
+.brief_paragraph{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -1px;
+
+}
+
+/* ------------------------------------------ section_red -------------------------------------------------- */
+
+
+/* ------------------------------------------ section_table -------------------------------------------------- */
+table, th, td{
+    border: 2px solid #0000001c;
+    border-collapse: collapse;
+    color: #27283C;
+    padding-left: 3rem;
+}
+.table_data{
+    width: 100%;
+}
+.first_row{
+    height: 65px;
+    background-color: #27283C;
+}
+.rows{
+    background-color: white;
+}
+tr>th{
+    color: white;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 600;
+}
+.th_white{
+    color: #27283C;
+}
+tr>td{
+font-size: 20px;
+font-weight: 400;
+line-height: 3;
+}
+/* ------------------------------------------ section_table -------------------------------------------------- */
+
+/* ------------------------------------------ section_more -------------------------------------------------- */
+.sub_heading_bottom{
+    color: brown;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.section_bottom>ul>li>a{
+    font-size: 21px;
+    color: black;
+    letter-spacing: -1px;
+    margin-top: 1.5rem;
+}
+.explore_link{
+    text-decoration: none;
+    color: white;
+    padding: 0.4rem 1.3rem 0.4rem 1.3rem;
+    background-color: #27283C;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+.section_bottom{
+    padding-bottom: 6rem;
+    /* background-color: aliceblue; */
+    border-bottom: 1px solid rgb(249 213 219);
+}
+
+/* ------------------------------------------ section_more -------------------------------------------------- */

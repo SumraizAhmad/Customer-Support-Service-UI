@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main_box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 352px 600px 380px 700px 600px;
+    background-color: #FFEBEC;
+}
+
+/* -------------------------------------- section_contact_info ---------------------------------------------  */
+.section_contact_info {
+    background-color: #FFEBEC;
+}
+
+.contact_box_inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 175px;
+    margin-top: 5rem;
+}
+
+.phone_info {
+    grid-column: span 1;
+    border: 1px solid #d7819040;
+}
+.contact_data{
+    margin-top: 1.8rem;
+    margin-left: 3rem;
+}
+.contact_data>div{
+    width: 147px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_img{
+    background-color: brown;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_data>div>span{
+    margin-top: 22px;
+    color: brown;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.contact_data>p{
+    margin-top: 1.4rem;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* -------------------------------------- section_contact_info ---------------------------------------------  */
+
+
+
+/* -------------------------------------- section_form ---------------------------------------------  */
+.contact_form{
+    background-color: white;
+    padding-top: 3rem;
+    padding: 3rem;
+    border-radius: 5px;
+}
+.outer_form{
+    width: 900px;
+    display: flex;
+    justify-content:space-between ;
+}
+label{
+    font-size: 17px;
+    color: rgb(128, 128, 128);
+    padding-bottom: 0.5rem;
+}
+.input{
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid rgba(128, 128, 128, 0.37);
+}
+.inner_form>div{
+    margin-top: 1rem;
+}
+.textarea{
+    width: 350px;
+    border-radius: 5px;
+    border: 2px solid rgba(128, 128, 128, 0.37);
+}
+.checkbox{
+    width: 23px;
+    height: 23px;
+    border-radius: 5px;
+    color: rgb(128, 128, 128);
+    border: 2px solid rgba(128, 128, 128, 0.37);
+    margin-top: 5px;
+}
+.form_text{
+    color: rgb(128, 128, 128);
+
+}
+.submit_button{
+    padding: 1rem 1.8rem 1rem 1.8rem;
+    margin-top: 1.4rem;
+    border: none;
+    color: white;
+    background-color: brown;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 14px;
+}
+/* -------------------------------------- section_form ---------------------------------------------  */

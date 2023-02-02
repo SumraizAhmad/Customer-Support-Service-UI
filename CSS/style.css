@@ -1,0 +1,462 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main_body {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 352px 1393px 1416px 630px 615px;
+}
+
+.section_header {
+    background-color: aqua;
+}
+
+.section_experience {
+    background-color: rgb(255 235 235);
+}
+
+.section_testimonials {
+    background-color: #27283C;
+}
+
+.section_contact {
+    background-color: #F06D57;
+}
+
+.section_footer {
+    background-color: rgb(255 235 235);
+}
+
+
+/* ------------------------------------ section_header CSS  ------------------------------------- */
+.navbar {
+    background-color: #27283C;
+    /* display: flex;
+justify-content: center; */
+}
+.nav_box {
+    width: 100%;
+    background-color: #27283C;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.nav_inner {
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo>img {
+    width: 40px;
+}
+
+.logo>span {
+    color: white;
+    font-size: x-large;
+    font-weight: 600;
+    padding-left: 1rem;
+}
+
+.nav_list>ul {
+    /* width: 100%; */
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav_list>ul>li>a {
+    color: white;
+    
+    margin-right: 5rem;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 1.2rem;
+    padding-bottom: 15px;
+    /* background-color: aliceblue; */
+}
+
+.nav_list>ul>li>a:hover {
+    border-bottom: 2px solid #dd3e3e;
+    /* margin-bottom: 0.8rem; */
+}
+
+.nav_button {
+    padding: 0.7rem 1.75rem 0.7rem 1.75rem;
+    font-weight: 600;
+    font-size: 13px;
+    background-color: #dd3e3e;
+    border-radius: 3px;
+}
+.nav_button>a{
+    text-decoration: none;
+    color: white;
+}
+
+.header_info {
+    height: 19rem;
+    margin-top: 3rem;
+}
+
+.header_info>center>h1 {
+    color: white;
+    font-size: 3rem;
+    padding-top: 6rem;
+}
+
+.header_info>center>p {
+    font-size: 17px;
+    color: white;
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+/* ------------------------------------ section_header CSS  ------------------------------------- */
+
+
+
+/* ------------------------------------ section_experience CSS  ------------------------------------- */
+.section_experience_body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 270px 520px 30px 205px 100px ;
+    gap: 2rem;
+    margin-top: 8rem;
+}
+
+.item1{
+    grid-column: span 6;
+    /* background-color: aliceblue; */
+}
+.item2{
+    grid-column: span 6;
+    /* background-color: aliceblue; */
+}
+.item3{
+    grid-column: span 6;
+    /* background-color: aliceblue; */
+}
+.item4{
+    grid-column: span 6;
+    /* background-color: aliceblue; */
+}
+.item5{
+    grid-column: span 12;
+    /* background-color: aliceblue; */
+}
+.item6{
+    grid-column: span 4;
+    /* background-color: aliceblue; */
+}
+.item7{
+    grid-column: span 4;
+    /* background-color: aliceblue; */
+}
+.item8{
+    grid-column: span 4;
+    /* background-color: aliceblue; */
+}
+.item9{
+    grid-column: span 12;
+    /* background-color: aliceblue; */
+    margin: auto;
+}
+
+/* ------ item1 CSS -------  */
+.item1>p{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.sub_text_color{
+    color: #dd3e3e;
+}
+/* ------ item1 CSS -------  */
+
+/* ------ item2 CSS -------  */
+.item2>p{
+    font-size: 17px;
+    line-height: 1.7;
+    padding-top: 1rem;
+    font-weight: 400;
+}
+/* ------ item2 CSS -------  */
+
+/* ------ item3 CSS -------  */
+.item3>img{
+    width: 100%;
+}
+/* ------ item3 CSS -------  */
+
+/* ------ item4 CSS -------  */
+.item4_images{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 190px 190px;
+gap: 2rem;
+}
+.image4>img{
+width: 100%;
+}
+/* ------ item4 CSS -------  */
+    
+/* ------ item5 CSS -------  */
+.item5>p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #a64439;
+}
+/* ------ item5 CSS -------  */
+
+/* ------ item6, item7, item8 CSS -------  */
+.text_body>p{
+    font-size: 17px;
+    line-height: 1.7;
+    padding-top: 1rem;
+    font-weight: 400;
+}
+/* ------ item6, item7, item8 CSS -------  */
+
+/* ------ item9 CSS -------  */
+.item9>a{
+    text-decoration: none;
+    color: white;
+    background-color: #dd3e3e;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    margin: auto;
+}
+/* ------ item9 CSS -------  */
+
+/* ------------------------------------ section_experience CSS  ------------------------------------- */
+
+
+
+/* ------------------------------------ section_testimonials CSS  ------------------------------------- */
+
+
+.section_testimonials_body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 450px 180px 275px;
+    gap: 2rem;
+    padding: 6rem 0 6rem 0;
+}
+
+.frame1>p{
+    font-size: larger;
+    font-weight: bold;
+    color: #a64439;
+}
+.frame1>h1{
+    color: white;
+    font-size: 3.5rem;
+}
+
+.frame2{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 400px;
+gap: 2rem;
+}
+
+.image_inner_box{
+    width: 100%;
+    /* background-color: black; */
+    padding-top: 3.5rem;
+    /* height: 300px ; */
+    display: flex;
+    justify-content: center;
+    border: 0.1px solid rgba(255, 255, 255, 0.103);
+    border-radius: 5px;
+}
+.resize_box{
+    padding-top: 2.7rem !important;
+}
+.test_image_box>h3{
+color: white;
+margin-top: 1rem;
+   
+}
+.test_image_box>p{
+color: white;
+margin-top: 0.5rem;
+}
+
+.frame_three_text>center>p{
+    color: #dd3e3e;
+    font-weight: 600;
+}
+.frame_three_text>center>h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+
+.frame4{
+    display: flex;
+    justify-content: center;
+}
+.test_para_box{
+    width: 700px;
+    height: fit-content;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 5px;
+}
+.test_para_box>p{
+    color: #5c5c5c;
+    font-size: 17px;
+    line-height: 1.7;
+    /* padding-top: 1rem; */
+    font-weight: 400;
+}
+.test_para_box>center>p{
+    color: #5c5c5c;
+    font-weight: 500;
+}
+
+
+/* ------------------------------------ section_testimonials CSS  ------------------------------------- */
+
+
+
+/* ------------------------------------ section_contact CSS  ------------------------------------- */
+.contact_area{
+    width: 86%;
+    margin: auto;
+}
+.contact_box{
+    margin-top: 7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 450px;
+    gap: 1rem;
+}
+
+.contact_field1>h1{
+    color: white;
+    font-size: 3rem;
+}
+.contact_field1>p{
+    color: #27283C;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    font-size: 17px;
+    line-height: 1.7;
+    /* padding-top: 1rem; */
+    font-weight: 400;
+}
+.contact_field1>a{
+    color: #a64439;
+    font-weight: bolder;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 5px;
+
+}
+/* ------------------------------------ section_contact CSS  ------------------------------------- */
+
+
+/* ------------------------------------ section_footer CSS  ------------------------------------- */
+.footer_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 280px;
+    gap: 2rem;
+    margin-top: 10rem;
+    border-bottom: 1px solid pink;
+}
+
+.box1>p{
+color: #F06D57;
+font-size: 18px;
+font-weight: 600;
+}
+.box1>ul{
+    list-style: none;
+    margin-top: 1.8rem;
+}
+.box1>ul>li>a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    color: #27283C;
+}
+.box1>ul>li{
+    margin-top: 1.1rem;
+}
+
+.footer_content4>p{
+    margin-left: 2rem;
+}
+.footer_icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8rem;
+}
+.icon_box{
+    width: 50px;
+    height: 50px;
+    background-color: #dd3e3e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+.container>hr{
+    height: 1px;
+    background-color: #F06D57;
+}
+.footer_copy{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.footer_copy>ul{
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+list-style: none;
+}
+.footer_copy>ul>li>a{
+    text-decoration: none;
+    color: #27283C;
+}
+.footer_text_bottom{
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 600;
+}
+.footer_link{
+    color: #F06D57;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px solid #f06e573d;
+}
+/* ------------------------------------ section_footer CSS  ------------------------------------- */
+
